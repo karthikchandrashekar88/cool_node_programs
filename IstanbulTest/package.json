@@ -1,0 +1,16 @@
+{
+  "name": "test_istanbul",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies":{
+    "mocha": "*",
+    "chai": "*"
+  },
+  "scripts": {
+    "test": "env LOG_LEVEL=off istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec > coverage.txt",
+    "coverage": "env LOG_LEVEL=off istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec > coverage.txt"
+  }
+}
