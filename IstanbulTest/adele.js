@@ -6,7 +6,7 @@ function adele() {
             'Rolling In the Deep',
             'Someone Like You',
             'Set Fire to the Rain',
-            'Skyfall',
+            'Skyfall - This is the end',
             'Turning Tables'
         ];
         return collection
